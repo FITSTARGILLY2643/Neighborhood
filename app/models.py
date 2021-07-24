@@ -7,3 +7,9 @@ class Neighborhood(models.Model):
     location = models.ForeignKey('Location',on_delete = models.CASCADE,null = True)
     admin = models.ForeignKey(User,on_delete = models.CASCADE)
     occupants = models.IntegerField(null=True)
+
+    def __str__(self):
+        return self.name
+
+    def create_neighborhood(self):
+        self.save()
