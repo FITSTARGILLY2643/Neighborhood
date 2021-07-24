@@ -48,3 +48,9 @@ class Business(models.Model):
     neighborhood = models.ForeignKey(Neighborhood,on_delete = models.CASCADE,related_name = 'business_neighbourhood')
     category = models.ForeignKey('Category',on_delete = models.CASCADE,null=True)
     email = models.EmailField(max_length = 60)
+
+    def __str__(self):
+        return self.name
+
+    def create_business(self):
+        self.save()
