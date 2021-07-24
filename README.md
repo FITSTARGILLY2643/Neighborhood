@@ -1,12 +1,12 @@
-#  Award
+#  Neighborhood
 ## Author
 Gilbert Kiprotich Mutai
 ## Description
-This is a django-python application where developers can upload their projects and peers can review and rate them. Projects are reviewed and rated according to usability, design and content.
+This is application lets users share information in their neighborhood.
 ## Project Set up Instructions
 * Ctrl + alt + t to open the terminal
-* now git clone https://github.com/FITSTARGILLY2643/Award
-* cd to Award
+* now git clone https://github.com/FITSTARGILLY2643/Neighborhood
+* cd to Neighborhood
 * you can use code . or atom . to open it.
 
 ## Technologies Used
@@ -18,7 +18,7 @@ This is a django-python application where developers can upload their projects a
 ## Support and contact details
 Reach me on: +254 725060098 or fitstargilii1194@gmail.com
 ## Live Link
-https://award-app.herokuapp.com/
+
 
 ### MIT License
 
