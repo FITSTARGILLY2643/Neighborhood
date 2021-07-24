@@ -65,3 +65,9 @@ class Business(models.Model):
 
     def update_business(self):
         self.save()
+
+class Location(models.Model):
+    name = models.CharField(max_length = 40)
+
+    def __str__(self):
+        return self.name
