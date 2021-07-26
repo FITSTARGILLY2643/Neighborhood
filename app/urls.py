@@ -15,7 +15,6 @@ urlpatterns = [
     url(r'^search/$',views.search,name='search'),
     url('^api/businesses/$',views.BusinessList.as_view()),
     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
-    # url(r'^logout/$', views.logout, {"next_page": '/'},name='logout'),
     url(r'^accounts/register/',RegistrationView.as_view(success_url='/accounts/login'),name='django_registration_register'),
     url(r'^accounts/', include('django_registration.backends.one_step.urls')),
     url(r'^accounts/', include('django.contrib.auth.urls')),

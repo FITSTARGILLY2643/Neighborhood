@@ -9,10 +9,11 @@ class UserProfileForm(forms.ModelForm):
 class BusinessForm(forms.ModelForm):
     class Meta:
         model = Business
-        exclude = ['user','neighborhood']
+        fields =('name','description','email','category')
+       
 
 class PostForm(forms.ModelForm):
-    CHOICES = (('1', 'Amber',), ('2', 'Normal',))
+    CHOICES = (('1', 'Advance',), ('2', 'Normal',))
     type = forms.ChoiceField(widget=forms.Select, choices=CHOICES)
     class Meta:
         model = Post
