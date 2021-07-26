@@ -18,7 +18,7 @@ This is application lets users share information in their neighborhood.
 ## Support and contact details
 Reach me on: +254 725060098 or fitstargilii1194@gmail.com
 ## Live Link
-
+https://fits-nei.herokuapp.com/
 
 ### MIT License
 
