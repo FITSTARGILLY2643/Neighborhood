@@ -2,7 +2,6 @@ from pathlib import Path
 import os
 import django_heroku
 import dj_database_url
-import cloudinary
 from decouple import config,Csv
 
 
@@ -19,6 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap4',
     'app',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
